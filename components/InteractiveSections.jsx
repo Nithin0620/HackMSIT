@@ -262,9 +262,9 @@ export const ChoosePath = () => {
 // 3. TIMELINE SECTION (Visual Journey)
 // ----------------------------------------------------
 const SCHEDULE_EVENTS = [
-  { day: "Day 1 (10th April 2026)", time: "09:00 AM", title: "Gates Open & Registration", icon: Users, isSpecial: false },
-  { day: "Day 1 (10th April 2026)", time: "10:00 AM", title: "The Inaugural Address", icon: Flag, isSpecial: false },
-  { day: "Day 1 (10th April 2026)", time: "11:00 AM", title: "Hacking Commences", icon: Terminal, isSpecial: true },
+  { day: "Day 1 (10th April 2026)", time: "08:00 AM", title: "Gates Open & Registration", icon: Users, isSpecial: false },
+  { day: "Day 1 (10th April 2026)", time: "09:00 AM", title: "The Inaugural Address", icon: Flag, isSpecial: false },
+  { day: "Day 1 (10th April 2026)", time: "10:00 AM", title: "Hacking Commences", icon: Terminal, isSpecial: true },
   { day: "Day 1 (10th April 2026)", time: "01:00 PM", title: "Royal Feast (Lunch)", icon: Coffee, isSpecial: false },
   { day: "Day 1 (10th April 2026)", time: "05:00 PM", title: "Mentorship & Counsel Round 1", icon: ShieldCheck, isSpecial: false },
   { day: "Day 2 (11th April 2026)", time: "08:00 AM", title: "Dawn Hack Resumes", icon: Zap, isSpecial: false },
