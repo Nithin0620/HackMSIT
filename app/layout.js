@@ -15,6 +15,10 @@ const playfair = Playfair_Display({
 export const metadata = {
   title: "HackMSIT 2026",
   description: "Built on Legacy. Driven by Innovation.",
+  icons: {
+    icon: "/logo.svg",
+    shortcut: "/logo.svg",
+  },
 };
 
 export default function RootLayout({ children }) {
