@@ -251,7 +251,7 @@ export default function Home() {
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, delay: 0.6 }} className="flex items-center justify-center gap-4 mb-12">
             <span className="text-parchment font-sans font-semibold tracking-widest uppercase text-base md:text-lg drop-shadow-sm">10th & 11th</span>
             <span className="w-2 h-2 rotate-45 border border-antique-gold/50"></span>
-            <span className="text-parchment font-sans font-semibold tracking-widest uppercase text-base md:text-lg drop-shadow-sm">₹50,000 Prize Pool</span>
+            <span className="text-parchment font-sans font-semibold tracking-widest uppercase text-base md:text-lg drop-shadow-sm">₹40,000+ Rewards & Prizes</span>
           </motion.div>
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, delay: 0.7 }} className="flex flex-col sm:flex-row gap-6">
             <a
