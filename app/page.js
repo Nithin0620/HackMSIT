@@ -250,7 +250,7 @@ export default function Home() {
             Built on Legacy. Driven by Innovation.
           </motion.p>
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, delay: 0.6 }} className="flex items-center justify-center gap-4 mb-12">
-            <span className="text-parchment font-sans font-semibold tracking-widest uppercase text-base md:text-lg drop-shadow-sm">10th & 11th April, 2026</span>
+            <span className="text-parchment font-sans font-semibold tracking-widest uppercase text-base md:text-lg drop-shadow-sm">10th - 11th April, 2026</span>
             <span className="w-2 h-2 rotate-45 border border-antique-gold/50"></span>
             <span className="text-parchment font-sans font-semibold tracking-widest uppercase text-base md:text-lg drop-shadow-sm">₹40,000+ Rewards & Prizes</span>
           </motion.div>
