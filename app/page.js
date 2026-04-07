@@ -178,6 +178,7 @@ const Navbar = () => {
           <a href="#about" className="hover:text-antique-gold transition-colors">About</a>
           <a href="#legacy" className="hover:text-antique-gold transition-colors">Legacy</a>
           <a href="#tracks" className="hover:text-antique-gold transition-colors">Tracks</a>
+          <a href="#timeline" className="hover:text-antique-gold transition-colors">Timeline</a>
           <a href="#prizes" className="hover:text-antique-gold transition-colors">Prizes</a>
         </div>
         <a
@@ -249,7 +250,7 @@ export default function Home() {
             Built on Legacy. Driven by Innovation.
           </motion.p>
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, delay: 0.6 }} className="flex items-center justify-center gap-4 mb-12">
-            <span className="text-parchment font-sans font-semibold tracking-widest uppercase text-base md:text-lg drop-shadow-sm">10th & 11th</span>
+            <span className="text-parchment font-sans font-semibold tracking-widest uppercase text-base md:text-lg drop-shadow-sm">10th & 11th April, 2026</span>
             <span className="w-2 h-2 rotate-45 border border-antique-gold/50"></span>
             <span className="text-parchment font-sans font-semibold tracking-widest uppercase text-base md:text-lg drop-shadow-sm">₹40,000+ Rewards & Prizes</span>
           </motion.div>
@@ -309,7 +310,7 @@ export default function Home() {
             <motion.div {...fadeUp} className="w-full max-w-4xl py-12 md:py-20">
               <h2 className="font-serif text-3xl md:text-7xl mb-8 font-bold">A Grounded Ecosystem</h2>
               <p className="font-serif text-xl md:text-2xl leading-relaxed text-brick-900/90">
-                HackMSIT provides a scholarly environment where 1000+ builders converge for 48 hours to craft elegant, meaningful software that withstands the test of time.
+                HackMSIT provides a scholarly environment where 1000+ builders converge for 24 hours to craft elegant, meaningful software that withstands the test of time.
               </p>
             </motion.div>
           </section>
@@ -384,11 +385,14 @@ export default function Home() {
               </motion.div>
               <div className="space-y-4">
                 {[
-                  { label: "1st Position", amount: "₹15,000", extras: "+ Certificate & Awesome Swags", icon: Trophy, category: "Cash Winner" },
-                  { label: "2nd Position", amount: "₹10,000", extras: "+ Certificate & Awesome Swags", icon: Award, category: "Cash Runner-up" },
-                  { label: "3rd Position", amount: "₹5,000", extras: "+ Certificate & Awesome Swags", icon: Medal, category: "Cash 2nd Runner-up" },
-                  { label: "Sponsor Track 1", amount: "₹10,000", extras: "Cash Prize for Track Winners", icon: Gift, category: "Domain Winner" },
-                  { label: "Sponsor Track 2", amount: "₹10,000", extras: "Cash Prize for Track Winners", icon: Gift, category: "Domain Winner" }
+                  { label: "1st Rank", amount: "₹10,000", extras: "CASH", icon: Trophy, category: "Cash Award" },
+                  { label: "2nd Rank", amount: "₹6,000", extras: "CASH", icon: Award, category: "Cash Award" },
+                  { label: "3rd Rank", amount: "₹4,000", extras: "CASH", icon: Medal, category: "Cash Award" },
+                  { label: "Sponsored Track (DomAlyn Labs)", amount: "₹10,000", extras: "CASH", icon: Gift, category: "Cash Award" },
+                  { label: "Best Freshers", amount: "Goodies", extras: "4 T-Shirts + 4 Bottles", icon: Gift, category: "Special Award" },
+                  { label: "Best All Girls Team", amount: "Goodies", extras: "4 Hackquest T-Shirts + 4 Bottles", icon: Gift, category: "Special Award" },
+                  { label: "LinkedIn Engagement (FCFS)", amount: "50", extras: "Books", icon: Gift, category: "Engagement Award" },
+                  { label: "Participation Certificate", amount: "Certificate", extras: "For all participating teams", icon: Gift, category: "Participation" }
                 ].map((prize, i) => (
                   <motion.div key={i} {...fadeUp} transition={{ delay: i * 0.1 }} className="py-6 px-8 border border-brick/10 bg-parchment/30 backdrop-blur-sm hover:bg-parchment/50 transition-colors flex justify-between items-center rounded-sm">
                     <div className="flex items-center gap-6">

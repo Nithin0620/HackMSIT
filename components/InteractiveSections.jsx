@@ -822,15 +822,16 @@ export const WarRoom = () => {
 // 5. TIMELINE
 // ─────────────────────────────────────────────────────────
 const SCHEDULE_EVENTS = [
-  { day: "Day 1 (10th April)", time: "09:00 AM", title: "Gates Open & Registration", icon: Users, isSpecial: false },
-  { day: "Day 1 (10th April)", time: "10:00 AM", title: "The Inaugural Address", icon: Flag, isSpecial: false },
-  { day: "Day 1 (10th April)", time: "11:00 AM", title: "Hacking Commences", icon: Terminal, isSpecial: true },
-  { day: "Day 1 (10th April)", time: "01:00 PM", title: "Royal Feast (Lunch)", icon: Coffee, isSpecial: false },
-  { day: "Day 1 (10th April)", time: "05:00 PM", title: "Mentorship & Counsel Round 1", icon: ShieldCheck, isSpecial: false },
-  { day: "Day 2 (11th April)", time: "08:00 AM", title: "Dawn Hack Resumes", icon: Zap, isSpecial: false },
-  { day: "Day 2 (11th April)", time: "10:00 AM", title: "Mentorship Round 2", icon: ShieldCheck, isSpecial: false },
-  { day: "Day 2 (11th April)", time: "01:00 PM", title: "Final Commits & Judging", icon: Trophy, isSpecial: true },
-  { day: "Day 2 (11th April)", time: "05:00 PM", title: "Honors & Valedictory", icon: Award, isSpecial: true },
+  { day: "Day 1 (10th April 2026)", time: "08:00 AM", title: "Gates Open & Registration", icon: Users, isSpecial: false },
+  { day: "Day 1 (10th April 2026)", time: "09:00 AM", title: "The Inaugural Address", icon: Flag, isSpecial: false },
+  { day: "Day 1 (10th April 2026)", time: "10:00 AM", title: "Hacking Commences", icon: Terminal, isSpecial: true },
+  { day: "Day 1 (10th April 2026)", time: "01:00 PM", title: "Royal Feast (Lunch)", icon: Coffee, isSpecial: false },
+  { day: "Day 1 (10th April 2026)", time: "05:00 PM", title: "Mentorship & Counsel Round 1", icon: ShieldCheck, isSpecial: false },
+  { day: "Day 2 (11th April 2026)", time: "08:00 AM", title: "Dawn Hack Resumes", icon: Zap, isSpecial: false },
+  { day: "Day 2 (11th April 2026)", time: "09:00 AM", title: "Teams Selected from Round 1 (Day 1)", icon: Users, isSpecial: true },
+  { day: "Day 2 (11th April 2026)", time: "10:00 AM", title: "Mentorship Round 2", icon: ShieldCheck, isSpecial: false },
+  { day: "Day 2 (11th April 2026)", time: "01:00 PM", title: "Final Commits & Judging", icon: Trophy, isSpecial: true },
+  { day: "Day 2 (11th April 2026)", time: "05:00 PM", title: "Honors & Valedictory", icon: Award, isSpecial: true },
 ];
 
 export const TimelineJourney = () => (
@@ -910,9 +911,9 @@ export const FinalCall = () => (
         >
           Register Now
         </a>
-        <a href="#" className="px-10 py-4 bg-transparent border border-brick-900/20 text-brick-900 font-sans tracking-widest uppercase text-sm font-bold hover:bg-brick-900/5 hover:border-antique-gold/50 hover:-translate-y-1 transition-all duration-300">
-          Join Discord Community
-        </a>
+        <a href="https://chat.whatsapp.com/GLgTg322BBvIbUkFhmfZOk?mode=gi_t"  target="_blank" className="px-10 py-4 bg-transparent border border-brick-900/20 text-brick-900 font-sans tracking-widest uppercase text-sm font-bold hover:bg-brick-900/5 hover:border-antique-gold/50 hover:-translate-y-1 transition-all duration-300">
+            Join Whatsapp Community
+          </a>
       </motion.div>
     </motion.div>
   </div>
