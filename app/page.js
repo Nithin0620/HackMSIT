@@ -379,8 +379,8 @@ export default function Home() {
           <section id="prizes" className="py-24">
             <div className="max-w-4xl mx-auto px-6 md:px-12 text-center">
               <motion.div {...fadeUp} className="mb-16">
-                <h2 className="font-serif text-3xl md:text-4xl text-antique-gold font-bold mb-2">₹50,000 Prize Pool</h2>
-                <p className="font-sans text-brick-900/60 tracking-widest text-sm uppercase mb-4">Grants & Recognition</p>
+                <h2 className="font-serif text-3xl md:text-4xl text-antique-gold font-bold mb-2">Rewards and Prizes</h2>
+                <p className="font-sans text-brick-900/60 tracking-widest text-sm uppercase mb-4">Cash Awards & Special Recognition</p>
                 <div className="w-16 h-[2px] bg-antique-gold mx-auto"></div>
               </motion.div>
               <div className="space-y-4">
